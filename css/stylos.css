@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+    background-color: #cb7169  ;
+}
+
+h2{ 
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    font-size: auto;
+    padding: 10px;
+
+}
+.identificador,.presentacion-nombre,.skill-nombre{
+  
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    font-size: auto;
+}
+
+.titulo{
+    display: flex;
+    background-color: #350a06;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px white;
+    border-radius: 8px;
+}
+
+.div-container{ 
+    display: flex;
+    background:#cb7169;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.div-item {
+    flex: 1;
+    padding-inline: 10px;
+   
+}
+
+#imagen{
+    text-align:center;
+    align-self: center;
+    display: block;
+}
+
+.imagenPerfil{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-size: 1em;
+    border-radius: 100%;
+    border-style: none;
+    box-shadow: 0 0 10px #170000;
+}
+
+.texto{
+    font-size: 15px;
+    display:block;
+    text-align: justify;
+    padding: 10px 10px;
+    margin-top: 1px;
+}
+.encabezado{
+    display: flex;
+    background-color: #350a06 ;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    border-style: none;
+    height:auto;
+    margin: 20px 10px;
+    box-shadow: 0 0 10px #350a06;
+}
+
+.container-presentacion, .skills-container{
+
+    height: 200px;
+    margin: 20px ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #170000;
+}
+
+.container-perfil{
+    text-align: justify;
+    color: black;
+    justify-content: center;
+    height: 218px;
+    margin: 10px ;
+    padding: 20px;
+    background-color: #cb7169;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #170000;
+}
+
+.presentacion,.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.presentacion-cont{
+    color: black;
+    flex: 1;
+    margin-left: 10px;
+    border-radius: 4px;
+    height: auto;
+}
+
+.skill-nivel {
+    color: black;
+    flex: 1;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    height: 20px;
+}
+
+
+
